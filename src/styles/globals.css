@@ -18,6 +18,6 @@ body {
   }
 
   .paragraph {
-    @apply font-roboto font-normal text-base;
+    @apply font-roboto font-normal text-base whitespace-pre-wrap md:text-sm;
   }
 }
