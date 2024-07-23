@@ -5914,7 +5914,7 @@ memfs@^3.4.1, memfs@^3.4.12:
   dependencies:
     fs-monkey "^1.0.4"
 
-memoizerific@^1.11.3:
+memoizerific@^1.11.0, memoizerific@^1.11.3:
   version "1.11.3"
   resolved "https://registry.yarnpkg.com/memoizerific/-/memoizerific-1.11.3.tgz#7c87a4646444c32d75438570905f2dbd1b1a805a"
   integrity sha512-/EuHYwAPdLtXwAwSZkh/Gutery6pD2KYd44oQLhAvQp/50mpyduZh8Q7PYHXTCJ+wuXxt7oij2LXyIJOOYFPog==
@@ -7556,6 +7556,13 @@ stop-iteration-iterator@^1.0.0:
   integrity sha512-iCGQj+0l0HOdZ2AEeBADlsRC+vsnDsZsbdSiH1yNSjcfKM7fdpCMfqAL/dwF5BLiw/XhRft/Wax6zQbhq2BcjQ==
   dependencies:
     internal-slot "^1.0.4"
+
+storybook-addon-paddings@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/storybook-addon-paddings/-/storybook-addon-paddings-5.0.1.tgz#b1c90af7808285c010a1b82ef7188227c5499905"
+  integrity sha512-saZiWzTFJ/DYxjeXBifcOfPuUkFgsYXPjCzAzxdTiR0MD1X+K6F1JaSzmdyCQ9EFUciXi1D9tk118tCd+yaDOg==
+  dependencies:
+    memoizerific "^1.11.0"
 
 storybook@^8.2.5:
   version "8.2.5"

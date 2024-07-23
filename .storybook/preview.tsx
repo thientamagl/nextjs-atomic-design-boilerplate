@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import type { Preview } from '@storybook/react'
+import type { Preview } from '@storybook/react';
 
-import { notoSans, roboto } from '../src/libs/fonts'
+import { notoSans, roboto } from '../src/libs/fonts';
 
-import '../src/styles/globals.css'
+import '../src/styles/globals.css';
 
 const preview: Preview = {
   parameters: {
@@ -59,12 +59,12 @@ const preview: Preview = {
   },
 
   decorators: [
-    (Story) => (
+    Story => (
       <div className={[notoSans.className, roboto.variable].join(' ')}>
         <Story />
       </div>
     ),
   ],
-}
+};
 
-export default preview
+export default preview;
